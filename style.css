@@ -1,0 +1,87 @@
+header {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 25px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.peliculas {
+    margin: 5vw;
+}
+
+button {
+    position: relative;
+    height: 400px;
+    width: 275px;
+    padding: none;
+    border-style: none;
+}
+
+.volver {
+    height: 35px;
+    width: 75px;
+    align-self: flex-start;
+    margin-top: 20px;
+    border-radius: 4px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    background-color: rgb(224, 230, 204);
+}
+
+.volver:hover {
+    background-color: rgba(180, 185, 162, 0.514);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button:hover .overlay {
+    display: flex;
+}
+
+.fellowship {
+    background: url("img/fellowship-img.jpg");
+    background-position: center;
+    background-size: contain;
+}
+
+.fellowship-info {
+    margin-top: 80px;
+    padding: 35px;
+    max-height: max-content;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    line-height: 30px;
+    background-color: rgb(180, 185, 162);
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5);
+}
