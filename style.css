@@ -22,6 +22,7 @@ button {
     width: 275px;
     padding: none;
     border-style: none;
+    margin: 15px;
 }
 
 .volver {
@@ -56,6 +57,8 @@ button:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 15px;
+    font-size: 14px;
 }
 
 button:hover .overlay {
@@ -68,7 +71,21 @@ button:hover .overlay {
     background-size: contain;
 }
 
-.fellowship-info {
+.towers {
+    background: url("img/towers-img.jpg");
+    background-position: right;
+    background-size:cover;
+}
+
+.king {
+    background: url("img/king-img.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.fellowship-info,
+.towers-info,
+.king-info {
     margin-top: 80px;
     padding: 35px;
     max-height: max-content;
@@ -85,3 +102,4 @@ button:hover .overlay {
     background-color: rgb(180, 185, 162);
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5);
 }
+
