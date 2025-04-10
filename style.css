@@ -5,6 +5,11 @@ header {
     padding: 25px;
 }
 
+h4 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
     width: 100%;
     display: flex;
@@ -33,11 +38,11 @@ button {
     border-radius: 4px;
     letter-spacing: 2px;
     font-size: 14px;
-    background-color: rgb(224, 230, 204);
+    background-color: rgb(218, 186, 149);
 }
 
 .volver:hover {
-    background-color: rgba(180, 185, 162, 0.514);
+    background-color: rgb(185, 145, 100);
 }
 
 button:hover {
@@ -50,7 +55,7 @@ button:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.568);
     color: white;
     display: none;
     flex-direction: column;
@@ -89,9 +94,9 @@ button:hover .overlay {
     margin-top: 80px;
     padding: 35px;
     max-height: max-content;
-    max-width: 400px;
+    max-width: 1200px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     border: none;
@@ -99,7 +104,10 @@ button:hover .overlay {
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
     line-height: 30px;
-    background-color: rgb(180, 185, 162);
+    background-color: rgb(218, 221, 205);
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
+.video {
+    margin-left: 50px;
+}
